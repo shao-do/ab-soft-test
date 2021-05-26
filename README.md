@@ -11,13 +11,11 @@
 - Selenide
 - Lombok
 - Allure
-- 'Intellij IDEA' IDE
-
 
 
 ## Prerequisites
-In order to utilise this project you need to have the following installed locally:
-- Java SE Development Kit 11
+In order to utilize this project you need to have the following installed locally:
+- Java SE Development Kit 11 (or higher)
 - Apache Maven 3
 
 
@@ -91,30 +89,32 @@ mvn clean test -Dtest=ArticlesTagsTest
 ```
 
 ## Reporting
-### After test run use Allure report generator
-Run one of these commands from the command line:
-1. Report will be generated into temp folder. Web server with results will start:
+###After test run use Allure report generator.
+Run one of these commands from the command line: 
 ```shell
 mvn allure:serve
 ```
-2. Report will be generated tо {project root directory}/allure-report/index.html
+Report will be generated into temp folder. Web server with results will start.
+
+or
 ```shell
 mvn allure:report
 ```
+Report will be generated tо {project root directory}/allure-report/index.html
 
 
 ## Additional tools which need to be installed:
 ['Lombok' plugin](https://projectlombok.org/setup/intellij) needs to be installed and annotation processing needs to be enabled.
 Via Intellij IDEA (v.2021.1.1)
-####1. Install lombok plugin 
+1. Install lombok plugin 
 - Go to Preferences > Plugins
 - Search for Lombok plugin 
 - Click on Install plugin
 - Save changes 
 
-####2. Enable annotation processing
+2. Enable annotation processing
 - Go to Preferences > Build, Execution, Deployment > Compiler > Annotation processors
 - Enable 'Annotation processing' checkbox
 - Save changes
 
-####3. Restart Intellij IDEA
+3. Restart Intellij IDEA
