@@ -1,0 +1,6 @@
+.allure/
+.idea/
+allure-report/
+build/
+target/
+*.iml
