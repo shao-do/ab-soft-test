@@ -17,6 +17,7 @@
 In order to utilize this project you need to have the following installed locally:
 - Java SE Development Kit 11 (or higher)
 - Apache Maven 3
+- browser: Google Chrome
 
 
 ## How to install
