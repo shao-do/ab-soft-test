@@ -101,7 +101,7 @@ or
 ```shell
 mvn allure:report
 ```
-Report will be generated tо {project root directory}/allure-report/index.html
+Report will be generated tо {project root directory}/target/allure-report/index.html
 
 
 ## Additional tools which need to be installed:
